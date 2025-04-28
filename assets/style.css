@@ -1,0 +1,36 @@
+*{
+    font-family: 'Rubik'
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-image: url('./images/flat-mountains.svg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    background-color: #EFEFEF;
+    height: 400px;
+    width: 300px;
+    padding: 100px;
+
+}
+
+.column{
+    flex-direction: column;
+}
+
+.card > form{
+    display: flex;
+    flex-direction: column;
+}
