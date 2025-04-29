@@ -19,11 +19,11 @@ body{
 
 .card{
     display: flex;
-    background-color: #EFEFEF;
+    background-color: rgba(255, 255, 255, 0.85);;
     height: 400px;
     width: 300px;
-    padding: 100px;
-
+    padding: 10px 80px;
+    border-radius: 15px;
 }
 
 .column{
@@ -34,3 +34,60 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.card label{
+    margin-bottom: 3px;
+    font-weight: 450;
+    margin-left: 5px;
+}
+
+.card .icon{
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.card #name{
+    background-image: url('./images/username.svg');
+}
+
+.card #email{
+    background-image: url('./images/email.svg');
+}
+
+.card #password{
+    background-image: url('./images/password.svg');
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)}
+.btn-grad {
+    font-size: 16px;
+    font-weight: 600;
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
